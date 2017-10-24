@@ -1,0 +1,19 @@
+-
+--
+-- Database: `demo`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `member`
+--
+
+CREATE TABLE `member` (
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `fullname` varchar(255) NOT NULL,
+  `birthday` varchar(10) NOT NULL,
+  `sex` varchar(3) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
